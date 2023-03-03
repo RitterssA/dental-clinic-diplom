@@ -1,0 +1,37 @@
+.link a {
+    color: white;
+    text-decoration: none;
+}
+
+.menuDark img {
+    height: 65px;
+}
+
+.menuDark {
+    background: #202020;
+}
+
+.menu {
+    background: whitesmoke;
+}
+
+.menu .link a {
+    color: rgba(0, 0, 0, 0.58);
+    text-decoration: none;
+}
+
+.menu img {
+    height: 65px;
+}
+
+.imgPrf {
+    align-items: center;
+    text-align: center;
+}
+
+.imgPrf button {
+    width: auto;
+    height: 30px;
+    font-size: 14px;
+    border: none;
+}

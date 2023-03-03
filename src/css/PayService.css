@@ -1,0 +1,124 @@
+.cardPay {
+    border: none;
+    max-width: 380px;
+    border-radius: 15px;
+    padding: 35px;
+    padding-bottom: 20px !important;
+    background: white;
+}
+
+.heading {
+    color: #8b8b8b;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cardPay img {
+    transform: translate(30px, -10px);
+}
+
+.cardPay h6 {
+    transform: translate(226px, -30px);
+    font-size: 20px;
+}
+
+
+.text-warning {
+    font-size: 12px;
+    font-weight: 500;
+    color: #00000071 !important;
+}
+
+
+#cno {
+    transform: translateY(-10px);
+}
+
+
+.cardPay input {
+    border-bottom: 1.5px solid #E8E5D2 !important;
+    font-weight: bold;
+    border-radius: 0;
+    border: 0;
+}
+
+.cardPay .form-group input:focus {
+    border: 0;
+    outline: 0;
+}
+
+.cardPay .col-sm-5 {
+    padding-left: 90px;
+}
+
+.cardPay .btn {
+    background: rgb(0, 153, 255) !important;
+    border: none;
+    border-radius: 30px;
+    transform: translate(-30px, 0px);
+}
+
+
+
+.closesPayService {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+    font-size: 2.5rem;
+    line-height: 1;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    border: none;
+    background-color: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    margin-top: -6%;
+}
+
+
+
+@media(max-width:991px) {
+    .cardPay {
+        max-width: 350px;
+        border-radius: 15px;
+        padding: 15px;
+        padding-bottom: 20px !important;
+    }
+
+    .cardPay .btn {
+        transform: translate(159px, -10px);
+    }
+
+
+    .closesPayService {
+        margin-top: 0;
+    }
+}
+
+/* @media(max-width:991px) {
+    .cardPay {
+        max-width: 350px;
+        border-radius: 15px;
+        padding: 15px;
+        padding-bottom: 20px !important;
+    }
+
+
+    .pay{
+
+        align-items: center;
+        text-align: center;
+    }
+
+
+
+
+    .closesPayService {
+        margin-top: 0;
+    }
+} */
+
+.styleButtonPosition {
+    display: flex;
+    justify-content: space-around;
+}
